@@ -30,6 +30,9 @@ The `GET /` route returns `{"message": "Hello, world!"}`.
 To stop the application, press `Ctrl+C` in the terminal where it is running.
 
 
-привет!
+## How to work with git
 
-dasdasd
+1. git add
+2. git status
+3. git commit
+4. git push
