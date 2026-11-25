@@ -1,30 +1,30 @@
 # Learning Integrations
 
-Минимальное приложение на FastAPI без базы данных.
+A minimal FastAPI application with no database.
 
-Все команды выполняются из директории проекта.
+Run all commands from the project directory.
 
-Команды одинаковые для Windows, macOS и Linux. Docker должен быть установлен и запущен. На Windows используйте Docker Desktop в режиме Linux-контейнеров; команды можно выполнять в PowerShell.
+The commands are the same on Windows, macOS, and Linux. Docker must be installed and running. On Windows, use Docker Desktop in Linux containers mode; the commands can be run in PowerShell.
 
-## Запуск через Docker
+## Running with Docker
 
-Собрать образ:
+Build the image:
 
 ```bash
 docker build -t learning-integrations .
 ```
 
-Запустить контейнер:
+Start the container:
 
 ```bash
 docker run --rm -p 8000:8000 learning-integrations
 ```
 
-## Проверка
+## Checking that it works
 
-- Приложение: http://localhost:8000
+- Application: http://localhost:8000
 - Swagger: http://localhost:8000/docs
 
-Маршрут `GET /` возвращает `{"message": "Hello, world!"}`.
+The `GET /` route returns `{"message": "Hello, world!"}`.
 
-Для остановки приложения нажмите `Ctrl+C` в терминале, где оно запущено.
+To stop the application, press `Ctrl+C` in the terminal where it is running.
