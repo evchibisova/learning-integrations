@@ -28,3 +28,6 @@ docker run --rm -p 8000:8000 learning-integrations
 The `GET /` route returns `{"message": "Hello, world!"}`.
 
 To stop the application, press `Ctrl+C` in the terminal where it is running.
+
+
+привет!
